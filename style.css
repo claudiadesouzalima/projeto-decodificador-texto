@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --corprincipal: #eff2f5;
+    --corsegundaria: #0A3871;
+    --corbtndescriptografar: #D8DFE8;
+    --corbranco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--corprincipal);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo_alura {
+    margin: 5.21% 5.21% 0 5.21% ;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100vw;
+}
+
+.section_esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 12% 0 5.21% 0;
+}
+
+.textarea_esquerda{
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    font-weight: 400;
+    height: 60vh;
+    width: 50vw;
+    color: var(--corsegundaria);
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)
+}
+
+
+.alerta{
+    display: flex;
+    gap: 8px;
+}
+
+.img_exclamacao{
+    width: 16px;
+    height: 16px;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #495057;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.botoes_esquerdo{
+    display: flex;
+    gap: 24px;
+    width: 50vw;
+}
+
+.btn_criptografar{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background: var(--corsegundaria);
+    color: var(--corbranco);
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0;
+}
+
+.btn_criptografar:hover {
+    opacity: 0.8;
+}
+
+.btn_descriptografar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--corsegundaria);
+    color: var(--corsegundaria);
+    background: #D8DFE8;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0;
+}
+
+.btn_descriptografar:hover {
+    background: var(--corsegundaria);
+    color: var(--corbranco);
+    opacity: 0.8;
+}
+
+.mensagem_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    background-color: var(--corbranco);
+    height: 640px;
+    width: 400px;
+    margin-top: 10px;
+    
+}
+
+.textarea_direita{
+    outline: none;
+    margin-top: 10px;
+    border-style: none;
+    border-color: Transparent;
+    font-size: 24px;
+    font-weight: 400;
+    color: #495057;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 32px;
+    overflow-y: scroll;
+    height: 85%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    hyphens: auto;
+}
+
+.imagem_boneco_direita{
+    
+    padding: 0 32px 32px 32px;
+    width: 100%;
+}
+
+.primeiraMsg_dir{
+    color: #343A40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0rem;
+    text-align: center;
+    padding: 0px 28px 16px 28px;
+}
+
+.segundaMsg_dir{
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 28px 0 28px;
+}
+
+.btn_copiar {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: var(--corsegundaria); 
+    color: var(--corbranco); 
+    width: 336px; 
+    height: 67px; 
+    text-align: center;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px; 
+}
+
+.btn_copiar:hover {
+    opacity: 0.8;
+}
+
+.btn_copiar:hover {
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.rodape{
+    color: var(--corsegundaria);
+    padding: 24px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    width: 100vw;
+    top: 100%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+

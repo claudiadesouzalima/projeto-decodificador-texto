@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo_alura" src="assets/Logo_a.png" alt="Logo da Alura">
+    </header>
+
+    <main class="main_container">
+        <section class="section_esquerda">
+            <div class="textarea_container">
+                <textarea class="textarea_esquerda" id="textareaesquerda" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <div class="alerta">
+                    <img class="img_exclamacao" src="assets/icon_exclamation.png" alt="img exclamacao">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+            </div>
+            
+            <div class="botoes_esquerdo">
+                <button class="btn_criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="btn_descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section class="section_direita">
+                
+            <div class="mensagem_container">
+                <textarea class="textarea_direita" id="textareadireita" cols="20" rows="5"></textarea> 
+                <img class="img_boneco" src="assets/Img_boneco.png" alt="imagem boneco pesquisando">
+                <h3 class="primeiraMsg_dir">Nenhuma mensagem encontrada</h3>
+                <p class="segundaMsg_dir">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="btn_copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Claudia de Souza Lima</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
